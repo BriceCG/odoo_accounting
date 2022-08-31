@@ -14,6 +14,7 @@
                            invisible="context.get('hide_result_selection')"/>
                     <field name="target_move" widget="radio"/>
                 </group>
+		<field name="company_id" required="0" invisible="1"/>
                 <field name="journal_ids" required="0" invisible="1"/>
                 <xpath expr="//field[@name='journal_ids']" position="before">
                     <group>
